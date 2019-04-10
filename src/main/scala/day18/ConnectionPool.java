@@ -24,9 +24,9 @@ public class ConnectionPool {
         }
     }
 
-
     /**
      * 获取连接,多线程访问并发控制
+     *
      * @return poll
      */
     public synchronized static Connection getConnection() {

@@ -27,6 +27,7 @@ object RDD2DataFrameScala {
     val df = ssc.createDataFrame(rowRDD,structType)
     df.registerTempTable("stu")
     val sql: DataFrame = ssc.sql("select * from stu where age > 17")
+    sql.show()
     val rdd: RDD[Row] = sql.rdd
     rdd.foreach(println)
 

@@ -38,7 +38,7 @@ object Top3Test extends App {
     flag
   })
 
-  private val formated: RDD[(String, Any)] = filtered.rdd.map(row => {
+  private val formated: RDD[(String, Any)] = filtered.rdd.map((row: Row) => {
     (row(0) + "_" + row(2), row(1))
   })
   private val rowRDD: RDD[Row] = formated.map(row=>Row(row._1,row._2))

@@ -1,5 +1,6 @@
 package day12
 
+import org.apache.spark.rdd.RDD
 import org.apache.spark.sql.{DataFrame, SQLContext, SaveMode}
 import org.apache.spark.{SparkConf, SparkContext}
 
@@ -12,9 +13,9 @@ object RDD2DataFrame {
     val conf = new SparkConf().setAppName("DF").setMaster("local")
     val sc = new SparkContext(conf)
     val ssc = new SQLContext(sc)
-    val files = sc.textFile("/Users/newforesee/Intellij Project/Spark/src/students.txt")
-    val student = files.map(t => {
-      val lines = t.split(",")
+    val files: RDD[String] = sc.textFile("/Users/newforesee/Intellij Project/Spark/src/students.txt")
+    val student: RDD[students] = files.map(t => {
+      val lines: Array[String] = t.split(",")
       students(lines(0).toInt, lines(1), lines(2).toInt)
     })
     //需要导入隐式转换

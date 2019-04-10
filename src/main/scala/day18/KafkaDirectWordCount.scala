@@ -6,6 +6,7 @@ import kafka.serializer.StringDecoder
 import kafka.utils.{ZKGroupTopicDirs, ZkUtils}
 import org.I0Itec.zkclient.ZkClient
 import org.apache.spark.SparkConf
+import org.apache.spark.rdd.RDD
 import org.apache.spark.streaming.dstream.{DStream, InputDStream}
 import org.apache.spark.streaming.kafka.{HasOffsetRanges, KafkaUtils, OffsetRange}
 import org.apache.spark.streaming.{Duration, StreamingContext}
@@ -85,12 +86,16 @@ object KafkaDirectWordCount {
     val messages: DStream[String] = transform.map(_._2)
 */
     //依次迭代DStream中的RDD
-    kafkaStream.foreachRDD(rdd => {
+    kafkaStream.foreachRDD((rdd: RDD[(String, String)]) => {
       offsetRanges = rdd.asInstanceOf[HasOffsetRanges].offsetRanges
       //对RDD操作，最后触发Action
-      rdd.map((_: (String, String))._2).foreachPartition(f => {
-        f.foreach(x => {
+      rdd.map((_: (String, String))._2).foreachPartition((f: Iterator[String]) => {
+        f.foreach((x: String) => {
+          /**
+            * 此处
+            */
           println(x + "###############")
+
         })
       })
       for (o <- offsetRanges) {
