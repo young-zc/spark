@@ -21,10 +21,10 @@ object RDD2DataFrameScala {
     })
     //构建structType
     val structType: StructType = StructType(Array(
-      StructField("id", IntegerType, true),
-      StructField("name",StringType, true),
-      StructField("age", IntegerType, true)))
-    val df = ssc.createDataFrame(rowRDD,structType)
+      StructField("id", IntegerType, nullable = true),
+      StructField("name",StringType, nullable = true),
+      StructField("age", IntegerType, nullable = true)))
+    val df: DataFrame = ssc.createDataFrame(rowRDD,structType)
     df.registerTempTable("stu")
     val sql: DataFrame = ssc.sql("select * from stu where age > 17")
     sql.show()
