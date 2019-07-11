@@ -12,6 +12,16 @@ object TestFunction {
   import spark.implicits._
 
   def main(args: Array[String]): Unit = {
+    /**
+      * 1,A,X,a
+      * 1,B,Y,b
+      * 2,A,X,a
+      * 2,B,Y,b
+      * 3,A,X,a
+      * 3,B,Y,b
+      * 4,A,X,a
+      * 4,B,Y,b
+      */
     val ds: Dataset[String] = spark.read.textFile("src/testdata")
     val rowrdd: RDD[Row] = ds.rdd.map((l: String) => {
       val strings: Array[String] = l.split(",")

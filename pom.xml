@@ -84,6 +84,12 @@
             <version>2.2.2</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/org.vegas-viz/vegas -->
+        <dependency>
+            <groupId>org.vegas-viz</groupId>
+            <artifactId>vegas_2.11</artifactId>
+            <version>0.3.11</version>
+        </dependency>
 
     </dependencies>
 
