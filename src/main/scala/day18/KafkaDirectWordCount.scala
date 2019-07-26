@@ -92,7 +92,7 @@ object KafkaDirectWordCount {
       rdd.map((_: (String, String))._2).foreachPartition((f: Iterator[String]) => {
         f.foreach((x: String) => {
           /**
-            * 此处
+            * 此处为业务逻辑方法
             */
           println(x + "###############")
 
