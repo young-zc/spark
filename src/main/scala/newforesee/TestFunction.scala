@@ -6,6 +6,8 @@ import org.apache.spark.sql.types.{StringType, StructType}
 import org.apache.spark.sql.{DataFrame, Dataset, Row, SparkSession}
 import org.apache.spark.sql.functions._
 
+import scala.collection.mutable
+
 object TestFunction {
   val spark: SparkSession = SparkSession.builder().master("local").getOrCreate()
 
@@ -39,6 +41,9 @@ object TestFunction {
       collect_list($"clo2") as "clo2",
       collect_list($"clo3") as "clo3"
     )
+        .withColumn("new1",ListReduceCount($"clo1"))
+        .withColumn("new2",ListReduceCount($"clo2"))
+        .withColumn("new3",ListReduceCount($"clo3"))
     df2.show()
 
     val df3: DataFrame = buildPartDescription(df2)
@@ -90,6 +95,23 @@ object TestFunction {
     (fault_code_list: Seq[String], latitude_list: Seq[String], longitude_list: Seq[String]) => {
       val values: Seq[(String, (String, String))] = fault_code_list.zip(latitude_list.zip(longitude_list))
       values.map((value: (String, (String, String))) => (value._1, value._2._1, value._2._2))
+    }
+  }
+
+  /**
+    * Example:
+    *   before : ("a", "b", "c", "a", "d", "c", "a")
+    *   after :  (b * 1, d * 1, a * 3, c * 2)
+    */
+  val ListReduceCount: UserDefinedFunction = udf {
+    arr: mutable.WrappedArray[String] =>{
+      arr.map((_: String, 1))
+        .groupBy((_: (String, Int))._1)
+        .map((x: (String, mutable.WrappedArray[(String, Int)])) => {(x._1, x._2.size)})
+        .mkString("\u0001")
+        .replaceAll("->","*")
+        .split("\u0001")
+        .toList
     }
   }
 

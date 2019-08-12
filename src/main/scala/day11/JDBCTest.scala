@@ -18,7 +18,7 @@ object JDBCTest {
     val result: RDD[(String, Int)] = tuples.reduceByKey((_: Int)+(_: Int))
     //调用foreachPartition这个算子可以提高性能因为可以直接将一个分区所有的数据写入到JDBC中
     //如果不用foreachPartition算子用foreach,那么调用JDBC的次数将和数据的次数差不多所以性能低下
-    result.foreachPartition(f=>getConnection(f))
+    result.foreachPartition((f: Iterator[(String, Int)]) =>getConnection(f))
 
 
 
@@ -38,7 +38,7 @@ object JDBCTest {
       ite.foreach(rdd => {
         pstmt.setDate(1, new Date(System.currentTimeMillis()))
         pstmt.setString(2, rdd._1)
-        pstmt.setInt(2, rdd._2)
+        pstmt.setInt(3, rdd._2)
         val count = pstmt.executeUpdate()
         if (count > 0) {
           println("成功")
