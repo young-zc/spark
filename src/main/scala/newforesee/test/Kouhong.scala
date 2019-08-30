@@ -34,9 +34,9 @@ object Kouhong {
       .withColumn("color_code", $"lipsticks.color")
       .withColumn("lipsticks_name", $"lipsticks.name")
       .select("name", "series_name", "color_id", "color_code", "lipsticks_name")
-//    val properties = new Properties
-//    properties.load(this.getClass.getClassLoader.getResourceAsStream("db.properties"))
-//    df1.write.mode("overwrite").jdbc("jdbc:mysql://slave1:3306/gp1809","lipsticks",properties)
+    val properties = new Properties
+    properties.load(this.getClass.getClassLoader.getResourceAsStream("db.properties"))
+    df1.write.mode("overwrite").jdbc("jdbc:mysql://slave1:3306/gp1809","lipsticks",properties)
 
     df1.show(1000)
 

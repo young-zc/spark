@@ -50,7 +50,6 @@ object JDBCTest {
     } catch {
       case e:SQLException =>println(e.getMessage)
     }finally {
-
       pstmt.close()
       connection.close()
     }

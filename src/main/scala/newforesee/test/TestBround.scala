@@ -4,7 +4,7 @@ import org.apache.spark.sql.DataFrame
 import org.apache.spark.sql.functions._
 
 /**
-  * xxx
+  * bround函数会进行小数保留,同时也可做四舍五入当传入限定值小于0
   * creat by newforesee 2019-08-12
   */
 object TestBround extends Test {

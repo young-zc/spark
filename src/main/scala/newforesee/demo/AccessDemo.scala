@@ -38,11 +38,20 @@ object AccessDemo extends Test {
 
     spark.sql(
       """
-        |select d.id,d.name
-        | from data d,acc_dim a
-        | where ((b.acc & (select acc from acc_dim where roles="DCEC")as m )= m)
+        |select id,name from data
+        | where (acc & 2)=2
       """.stripMargin).show()
-    spark.sql("select * from data,acc_dim where (acc & 8)=8 ").show()
+    spark.sql(
+      """
+        |select
+        | a.acc,
+        | d.*,
+        | a.roles
+        | from acc_dim a,data d
+        | where (d.acc & a.acc)=a.acc
+      """.stripMargin).show()
+
+    spark.sql("select * from data where (acc & 8)=8 ").show()
 
 
   }

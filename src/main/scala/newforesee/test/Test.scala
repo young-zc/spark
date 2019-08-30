@@ -12,9 +12,11 @@ import org.apache.spark.sql.catalyst.expressions.Log
 trait Test {
   val logger: Logger = Logger.getLogger(this.getClass)
   val spark: SparkSession = Util.getSpark(this.getClass)
-  import spark.implicits._
+  private val start: Long = System.currentTimeMillis()
   def main(args: Array[String]): Unit = {
     run()
+
+    println(s"Job Finished in %d seconds".format((System.currentTimeMillis()-start)/1000))
   }
   def run()
 
