@@ -3,8 +3,8 @@
     <CLASSES />
     <JAVADOC />
     <SOURCES>
-      <root url="file:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home" />
+      <root url="file://C:/Program Files/Java/jdk1.8.0_51" />
     </SOURCES>
-    <jarDirectory url="file:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://C:/Program Files/Java/jdk1.8.0_51" recursive="false" type="SOURCES" />
   </library>
 </component>

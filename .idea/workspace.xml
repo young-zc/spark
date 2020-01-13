@@ -1,45 +1,323 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8df7d61d-f978-4d83-b11c-cee7944f4369" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/newforesee/JsonTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/newforesee/MySql2HDFS.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/telimatic.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f84df7e8-eb61-467d-8649-13c0e3380218.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f84df7e8-eb61-467d-8649-13c0e3380218.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="8df7d61d-f978-4d83-b11c-cee7944f4369" name="Default Changelist" comment="Default Changelist">
+      <change afterPath="$PROJECT_DIR$/.idea/spark_example.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/scala_sdk_2_11_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/scala_sdk_2_11_81.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/scala_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/day08/Broadcast.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/day08/Broadcast.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/day08/TopN.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/day08/TopN.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/day12/DataFrameCreate.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/day12/DataFrameCreate.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/day12/RDD2DataFrame.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/day12/RDD2DataFrame.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/day12/RDD2DataFrameScala.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/day12/RDD2DataFrameScala.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/day14/Top3Test.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/day14/Top3Test.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/day18/ConnectionPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/day18/ConnectionPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/day18/KafkaDirectWordCount.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/day18/KafkaDirectWordCount.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/dongliang/ReadParqutt.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/dongliang/ReadParqutt.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/day12/DataFrameCreate$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/day12/DataFrameCreate$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/day12/RDD2DataFrame$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/day12/RDD2DataFrame$$anonfun$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/day12/RDD2DataFrame$$typecreator3$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/day12/RDD2DataFrame$$typecreator3$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/day12/RDD2DataFrame$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/day12/RDD2DataFrame$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/day12/RDD2DataFrameScala$$anonfun$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/day12/RDD2DataFrameScala$$anonfun$main$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/day12/RDD2DataFrameScala$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/day12/RDD2DataFrameScala$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/day12/students$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/day12/students$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/day12/students.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/day12/students.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/day18/KafkaDirectWordCount$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/day18/KafkaDirectWordCount$$anonfun$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/day18/KafkaDirectWordCount$$anonfun$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/day18/KafkaDirectWordCount$$anonfun$main$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/day18/KafkaDirectWordCount$$anonfun$main$2$$anonfun$apply$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/day18/KafkaDirectWordCount$$anonfun$main$2$$anonfun$apply$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/day18/KafkaDirectWordCount$$anonfun$main$2$$anonfun$apply$2$$anonfun$apply$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/day18/KafkaDirectWordCount$$anonfun$main$2$$anonfun$apply$2$$anonfun$apply$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/day18/KafkaDirectWordCount$$anonfun$main$2$$anonfun$apply$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/day18/KafkaDirectWordCount$$anonfun$main$2$$anonfun$apply$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/day18/KafkaDirectWordCount$$anonfun$main$2$$anonfun$apply$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/day18/KafkaDirectWordCount$$anonfun$main$2$$anonfun$apply$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/day18/KafkaDirectWordCount$$anonfun$main$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/day18/KafkaDirectWordCount$$anonfun$main$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/day18/KafkaDirectWordCount$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/day18/KafkaDirectWordCount$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dongliang/ReadParqutt$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dongliang/ReadParqutt$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BinFoundIp$$anonfun$compare$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BinFoundIp$$anonfun$searchCode$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BinFoundIp$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BinFoundIp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Consumers$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Consumers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRDD2DataFrame$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRDD2DataFrame$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRDD2DataFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRDD2DataFrame2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRDD2DataFrame2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaSparkWC$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaSparkWC$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaSparkWC$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaSparkWC$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaSparkWC$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaSparkWC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Producrts.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/a.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day07/Action$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day07/Action$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day07/Action$$anonfun$collect$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day07/Action$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day07/Action.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day07/Distinct$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day07/Distinct$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day07/Distinct.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day07/Mappartitions$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day07/Mappartitions$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day07/Mappartitions$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day07/Mappartitions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day07/RDDcount$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day07/RDDcount$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day07/RDDcount$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day07/RDDcount$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day07/RDDcount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day07/Transformtion$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day07/Transformtion$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day07/Transformtion$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day07/Transformtion$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day07/Transformtion$$anonfun$cogroup$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day07/Transformtion$$anonfun$filter$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day07/Transformtion$$anonfun$flatMap$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day07/Transformtion$$anonfun$groupbyKey$1$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day07/Transformtion$$anonfun$groupbyKey$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day07/Transformtion$$anonfun$join$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day07/Transformtion$$anonfun$map$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day07/Transformtion$$anonfun$reduceByKey$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day07/Transformtion$$anonfun$sortByKey$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day07/Transformtion$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day07/Transformtion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day08/Accumulator$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day08/Accumulator$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day08/Accumulator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day08/Broadcast$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day08/Broadcast$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day08/Broadcast$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day08/Broadcast.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day08/Cache$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day08/Cache$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day08/Cache$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day08/Cache$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day08/Cache.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day08/Coalesces$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day08/Coalesces$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day08/Coalesces$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day08/Coalesces$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day08/Coalesces$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day08/Coalesces.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day08/GroupTopN$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day08/GroupTopN$$anonfun$3$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day08/GroupTopN$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day08/GroupTopN$$anonfun$main$1$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day08/GroupTopN$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day08/GroupTopN$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day08/GroupTopN.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day08/Repartition$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day08/Repartition$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day08/Repartition$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day08/Repartition$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day08/Repartition$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day08/Repartition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day08/SortKey$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day08/SortKey$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day08/SortKey$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day08/SortKey$Sorted$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day08/SortKey$Sorted.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day08/SortKey.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day08/Text5$$anonfun$joinRdd$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day08/Text5$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day08/Text5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day08/TopN$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day08/TopN$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day08/TopN$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day08/TopN.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day09/LogUser$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day09/LogUser$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day09/LogUser$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day09/LogUser$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day09/LogUser$$anonfun$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day09/LogUser$$anonfun$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day09/LogUser$$anonfun$7$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day09/LogUser$$anonfun$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day09/LogUser$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day09/LogUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day09/SubjectCount$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day09/SubjectCount$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day09/SubjectCount$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day09/SubjectCount$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day09/SubjectCount$$anonfun$5$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day09/SubjectCount$$anonfun$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day09/SubjectCount$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day09/SubjectCount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day10/CheckPoint$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day10/CheckPoint$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day10/CheckPoint$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day10/CheckPoint$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day10/CheckPoint$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day10/CheckPoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day10/Names.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day10/Ordereds$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day10/Ordereds$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day10/Ordereds.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day11/JDBCTest$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day11/JDBCTest$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day11/JDBCTest$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day11/JDBCTest$$anonfun$getConnection$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day11/JDBCTest$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day11/JDBCTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day11/JDBCTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day11/Partitioned$$anonfun$getPartition$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day11/Partitioned.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day11/Partitioner$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day11/Partitioner$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day11/Partitioner$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day11/Partitioner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day12/DataFrameCreate$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day12/DataFrameCreate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day12/DataFrameCreate2$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day12/DataFrameCreate2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day12/LoadAndSave$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day12/LoadAndSave.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day12/RDD2DataFrame$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day12/RDD2DataFrame$$typecreator3$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day12/RDD2DataFrame$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day12/RDD2DataFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day12/RDD2DataFrameScala$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day12/RDD2DataFrameScala$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day12/RDD2DataFrameScala$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day12/RDD2DataFrameScala.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day12/students$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day12/students.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day13/DFandMoney$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day13/DFandMoney$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day13/DFandMoney$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day13/DFandMoney$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day13/DFandMoney.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day13/DFandUV$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day13/DFandUV$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day13/DFandUV$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day13/DFandUV$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day13/DFandUV.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day13/DataSet01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day13/DataSet01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day13/DataSet02$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day13/DataSet02$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day13/DataSet02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day13/DataSet03$$typecreator2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day13/DataSet03$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day13/DataSet03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day13/Pro$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day13/Pro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day13/RowNumber$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day13/RowNumber$$typecreator3$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day13/RowNumber$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day13/RowNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day13/UDAF$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day13/UDAF$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day13/UDAF$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day13/UDAF.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day13/UDF$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day13/UDF$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day13/UDF$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day13/UDF$$typecreator1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day13/UDF$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day13/UDF.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day13/teachers$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day13/teachers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day14/DaliTop3$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day14/DaliTop3$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day14/DaliTop3$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day14/DaliTop3$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day14/DaliTop3$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day14/DaliTop3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day14/PROs$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day14/PROs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day14/Top3Test$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day14/Top3Test$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day14/Top3Test$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day14/Top3Test$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day14/Top3Test$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day14/Top3Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day14/Type$$typecreator2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day14/Type$$typecreator3$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day14/Type$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day14/Type.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day14/UbType$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day14/UbType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day17/KafkaWC$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day17/KafkaWC$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day17/KafkaWC$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day17/KafkaWC$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day17/KafkaWC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day17/SparkStreamingWC$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day17/SparkStreamingWC$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day17/SparkStreamingWC$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day17/SparkStreamingWC$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day17/SparkStreamingWC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day17/UpdateStateByKey$$anonfun$1$$anonfun$apply$2$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day17/UpdateStateByKey$$anonfun$1$$anonfun$apply$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day17/UpdateStateByKey$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day17/UpdateStateByKey$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day17/UpdateStateByKey$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day17/UpdateStateByKey$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day17/UpdateStateByKey.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day18/BlackListFilter$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day18/BlackListFilter$$anonfun$2$$anonfun$3$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day18/BlackListFilter$$anonfun$2$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day18/BlackListFilter$$anonfun$2$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day18/BlackListFilter$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day18/BlackListFilter$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day18/BlackListFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day18/ConnectionPool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day18/KafkaDirectWordCount$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day18/KafkaDirectWordCount$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day18/KafkaDirectWordCount$$anonfun$main$2$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day18/KafkaDirectWordCount$$anonfun$main$2$$anonfun$apply$2$$anonfun$apply$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day18/KafkaDirectWordCount$$anonfun$main$2$$anonfun$apply$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day18/KafkaDirectWordCount$$anonfun$main$2$$anonfun$apply$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day18/KafkaDirectWordCount$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day18/KafkaDirectWordCount$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day18/KafkaDirectWordCount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day18/foreachRDDAndJDBC$$anonfun$1$$anonfun$apply$2$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day18/foreachRDDAndJDBC$$anonfun$1$$anonfun$apply$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day18/foreachRDDAndJDBC$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day18/foreachRDDAndJDBC$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day18/foreachRDDAndJDBC$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day18/foreachRDDAndJDBC$$anonfun$main$1$$anonfun$apply$3$$anonfun$apply$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day18/foreachRDDAndJDBC$$anonfun$main$1$$anonfun$apply$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day18/foreachRDDAndJDBC$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day18/foreachRDDAndJDBC$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day18/foreachRDDAndJDBC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day19/JedisAPI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day19/RedisAPI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day19/RedisAPI02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dongliang/20180715.parquet" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dongliang/ReadParqutt$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dongliang/ReadParqutt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/newforesee/First$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/newforesee/First$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/newforesee/First$$anonfun$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/newforesee/First$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/newforesee/First$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/newforesee/First.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/newforesee/Fourth$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/newforesee/Fourth$$anonfun$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/newforesee/Fourth$$anonfun$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/newforesee/Fourth$$anonfun$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/newforesee/Fourth$$anonfun$main$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/newforesee/Fourth$$anonfun$main$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/newforesee/Fourth$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/newforesee/Fourth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/newforesee/Second$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/newforesee/Second$$anonfun$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/newforesee/Second$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/newforesee/Second$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/newforesee/Second.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/newforesee/SparkWC$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/newforesee/SparkWC$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/newforesee/SparkWC$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/newforesee/SparkWC$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/newforesee/SparkWC$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/newforesee/SparkWC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/newforesee/Third$$anonfun$main$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/newforesee/Third$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/newforesee/Third.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/newforesee/work$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/newforesee/work$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/newforesee/work$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/newforesee/work$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/newforesee/work$$anonfun$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/newforesee/work$$anonfun$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/newforesee/work$$anonfun$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/newforesee/work$$anonfun$work1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/newforesee/work$$anonfun$work2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/newforesee/work$$anonfun$work2$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/newforesee/work$$anonfun$work3$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/newforesee/work$$anonfun$work4$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/newforesee/work$$anonfun$work4$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/newforesee/work$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/newforesee/work.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,80 +365,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/newforesee/Hdfs.scala">
+      <file leaf-file-name="TestForExpr.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/youngPractice/TestForExpr.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="120" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="120" />
+            <state relative-caret-position="475">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/newforesee/JsonTest.scala">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="96" selection-start-line="9" selection-start-column="87" selection-end-line="9" selection-end-column="96" />
+            <state relative-caret-position="100">
+              <caret line="52" column="26" lean-forward="true" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.2.2/spark-sql_2.11-2.2.2-sources.jar!/org/apache/spark/sql/DataFrameReader.scala">
+      <file leaf-file-name="commonfriends" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/commonfriends">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1169">
-              <caret line="276" column="6" selection-start-line="276" selection-start-column="6" selection-end-line="276" selection-end-column="6" />
+            <state relative-caret-position="57">
+              <caret line="3" column="9" selection-end-line="3" selection-end-column="9" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/day14/UbType.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/telimatic.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/day13/DataSet02.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/partitions.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3484" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/userlog.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/usermoney.json">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -169,8 +398,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Scala Object" />
-        <option value="Class" />
         <option value="JavaScript File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -186,21 +415,12 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="REBASE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/scala/day12/DataFrameCreate2.scala" />
-        <option value="$PROJECT_DIR$/src/main/java/JavaRDD2DataFrame.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Student.java" />
-        <option value="$PROJECT_DIR$/src/main/java/JavaRDD2DataFrame2.java" />
-        <option value="$PROJECT_DIR$/src/main/scala/day12/LoadAndSave.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/day13/DFandUV.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/day13/DFandMoney.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/day13/RowNumber.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/day13/UDF.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/day13/UDAF.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/day13/DataSet02.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/day13/DataSet03.scala" />
         <option value="$PROJECT_DIR$/src/a.json" />
@@ -214,7 +434,6 @@
         <option value="$PROJECT_DIR$/src/main/scala/day17/SparkStreamingWC.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/day08/GroupTopN.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/day18/foreachRDDAndJDBC.scala" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/scala/day19/RedisAPI.java" />
         <option value="$PROJECT_DIR$/src/main/scala/day19/RedisAPI02.java" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
@@ -241,7 +460,18 @@
         <option value="$PROJECT_DIR$/src/main/scala/dongliang/ReadParqutt.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/newforesee/Hdfs.scala" />
         <option value="$PROJECT_DIR$/src/telimatic.json" />
+        <option value="$PROJECT_DIR$/src/main/scala/test/TestMost.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/TestHive.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/scala/newforesee/JsonTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/test/TestInterPolater.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/test/GetRadarData.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/youngtest/TestRegex.scala" />
+        <option value="$PROJECT_DIR$/src/commonfriends" />
+        <option value="$PROJECT_DIR$/src/main/scala/youngtest/GetTogethFriends.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/youngtest/GetCommonFriends.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/youngPractice/TestForExpr.scala" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -250,11 +480,11 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Spark" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="spark_example" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Spark" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="spark_example" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
@@ -262,10 +492,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="13" />
-    <option name="y" value="22" />
+    <option name="x" value="1" />
+    <option name="y" value="-18" />
     <option name="width" value="1920" />
-    <option name="height" value="1002" />
+    <option name="height" value="1005" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -273,80 +503,94 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Spark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spark" type="462c0819:PsiDirectoryNode" />
+              <item name="spark_example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark_example" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Spark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spark" type="462c0819:PsiDirectoryNode" />
+              <item name="spark_example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark_example" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spark_example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark_example" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Spark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spark" type="462c0819:PsiDirectoryNode" />
+              <item name="spark_example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark_example" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Spark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spark" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spark" type="462c0819:PsiDirectoryNode" />
+              <item name="spark_example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark_example" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="newforesee" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spark_example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark_example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="youngPractice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spark_example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mariadb" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="org.apache.spark.deploy.ma&#9;null&#9;null&#10;RDD&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/.gitignore" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553596956505" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/scala" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.4.3/spark-core_2.11-2.4.3.jar!/" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/scala/day12" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/scala/dongliang" />
       <recent name="$PROJECT_DIR$/src/main/scala/newforesee" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main" />
       <recent name="$PROJECT_DIR$/src/main/scala" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/scala/day12" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -361,86 +605,91 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.newforesee.JsonTest">
-    <configuration name="Accumulator" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="day08.Accumulator" />
-      <module name="Spark" />
+  <component name="RunManager" selected="Application.TestForExpr">
+    <configuration name="GetCommonFriends" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="youngtest.GetCommonFriends" />
+      <module name="spark_example" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day08.*" />
+          <option name="PATTERN" value="youngPractice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
-    <configuration name="ReadParqutt" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="dongliang.ReadParqutt" />
-      <module name="Spark" />
+    <configuration name="GetRadarData" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="youngtest.GetRadarData" />
+      <module name="spark_example" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dongliang.*" />
+          <option name="PATTERN" value="youngPractice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
-    <configuration name="Top3Test" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="day14.Top3Test" />
-      <module name="Spark" />
+    <configuration name="GetTogethFriends" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="youngtest.GetTogethFriends" />
+      <module name="spark_example" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day14.*" />
+          <option name="PATTERN" value="youngPractice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    </configuration>
+    <configuration name="TestForExpr" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="youngPractice.TestForExpr" />
+      <module name="spark_example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="youngPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="TestRegex" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="youngPractice.TestRegex" />
+      <module name="spark_example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="youngPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration name="day14.UbType" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="day14.UbType" />
       <module name="Spark" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="newforesee.JsonTest" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="newforesee.JsonTest" />
       <module name="Spark" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test" />
-      <module name="Spark" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <list>
       <item itemvalue="Application.newforesee.JsonTest" />
       <item itemvalue="Application.day14.UbType" />
-      <item itemvalue="Application.Accumulator" />
-      <item itemvalue="Application.test" />
-      <item itemvalue="Application.Top3Test" />
-      <item itemvalue="Application.ReadParqutt" />
+      <item itemvalue="Application.GetRadarData" />
+      <item itemvalue="Application.TestRegex" />
+      <item itemvalue="Application.GetTogethFriends" />
+      <item itemvalue="Application.GetCommonFriends" />
+      <item itemvalue="Application.TestForExpr" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReadParqutt" />
-        <item itemvalue="Application.Top3Test" />
-        <item itemvalue="Application.test" />
-        <item itemvalue="Application.Accumulator" />
+        <item itemvalue="Application.TestForExpr" />
+        <item itemvalue="Application.GetCommonFriends" />
+        <item itemvalue="Application.GetTogethFriends" />
+        <item itemvalue="Application.TestRegex" />
+        <item itemvalue="Application.GetRadarData" />
       </list>
     </recent_temporary>
   </component>
   <component name="ScalaProjectSettings">
     <option name="ignorePerformance" value="true" />
+    <option name="intInjectionMapping">
+      <map>
+        <entry key="xml" value="XML" />
+      </map>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -567,63 +816,121 @@
       <option name="project" value="LOCAL" />
       <updated>1542339012307</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Default Changelist">
+      <created>1578901179506</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1578901179506</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Default Changelist">
+      <created>1578901875813</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1578901875813</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Default Changelist">
+      <created>1578902280407</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1578902280407</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="289129000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="13" y="22" width="1920" height="1002" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.22896698" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="Azure Explorer" order="7" weight="0.32960597" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32924107" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946752" weight="0.6042841" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39930955" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32807216" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5005325" side_tool="true" weight="0.3348365" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.3427283" />
-      <window_info anchor="bottom" id="Java Enterprise" order="10" />
-      <window_info anchor="bottom" id="Database Changes" order="11" weight="0.32911393" />
-      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32919955" />
-      <window_info anchor="bottom" id="Thumbnails" order="13" weight="0.3298611" />
-      <window_info anchor="bottom" id="Database Console" order="14" weight="0.32911393" />
-      <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cosmos Serverless Spark Jobs" order="16" />
-      <window_info anchor="bottom" id="Azure Activity Log" order="17" weight="0.32919955" />
-      <window_info anchor="bottom" id="Remote Spark Job in Cluster" order="18" />
-      <window_info anchor="bottom" id="Debug Remote Spark Job in Cluster" order="19" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32925898" />
-      <window_info anchor="right" id="Database" order="6" weight="0.26122448" />
+      <window_info anchor="bottom" id="DB Execution Console" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5005325" side_tool="true" weight="0.3338257" />
+      <window_info anchor="right" id="Maven Projects" order="12" weight="0.32908848" />
+      <window_info anchor="right" id="Word Book" order="8" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Project Explorer" order="2" />
+      <window_info id="Job Explorer" order="2" />
+      <window_info anchor="bottom" id="Console" order="7" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3988183" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info id="DB Browser" order="2" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Bean Validation" order="9" />
-      <window_info anchor="right" id="Maven" order="10" weight="0.32960597" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32743362" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946752" weight="0.4194978" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32791728" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19638069" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Azure Activity Log" order="17" weight="0.32919955" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.34268832" />
+      <window_info anchor="bottom" id="Cosmos Serverless Spark Jobs" order="16" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32924107" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+      <window_info anchor="right" id="SciView" order="4" />
+      <window_info anchor="bottom" id="Thumbnails" order="13" weight="0.3298611" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" />
+      <window_info anchor="right" id="Maven" order="11" weight="0.32960597" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="6" weight="0.26122448" />
+      <window_info anchor="bottom" id="Database Console" order="14" weight="0.32911393" />
+      <window_info anchor="bottom" id="Debug Remote Spark Job in Cluster" order="19" />
+      <window_info id="Azure Explorer" order="7" weight="0.32960597" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Database Changes" order="11" weight="0.32911393" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Remote Spark Job in Cluster" order="18" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="spark" />
-    <option name="LAST_COMMIT_MESSAGE" value="spark" />
+    <MESSAGE value="Default Changelist" />
+    <option name="LAST_COMMIT_MESSAGE" value="Default Changelist" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -635,192 +942,10 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
+      <option name="time" value="1" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/day13/UDF.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/day13/DFandUV.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/day18/foreachRDDAndJDBC.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="50" column="38" selection-start-line="49" selection-start-column="10" selection-end-line="50" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/day18/ConnectionPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="38" column="28" selection-start-line="38" selection-start-column="28" selection-end-line="41" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/day18/KafkaDirectWordCount.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-          <folding>
-            <element signature="e#15#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/day14/Top3Test.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/day08/Accumulator.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/day08/Broadcast.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/day11/JDBCTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/day08/TopN.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/day07/Action.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/day09/LogUser.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/day08/Coalesces.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1474">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/dongliang/Claim_Data_1900011.csv" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/dongliang/Claim_Data_190001.csv" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.2.2/spark-core_2.11-2.2.2-sources.jar!/org/apache/spark/SparkContext.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1023" column="6" selection-start-line="1023" selection-start-column="6" selection-end-line="1023" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/dongliang/Build_Data_200905.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state>
-          <caret column="270" selection-start-column="270" selection-end-column="270" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/nio/charset/Charset.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="796">
-          <caret line="189" column="66" selection-start-line="189" selection-start-column="58" selection-end-line="189" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="495" column="67" selection-start-line="495" selection-start-column="67" selection-end-line="495" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/day08/SortKey.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="35" column="3" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/day08/Text5.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JavaRDD2DataFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/day08/GroupTopN.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/day10/CheckPoint.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/day08/Repartition.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/day08/Cache.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/day14/DaliTop3.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2618">
-          <caret line="125" column="66" selection-start-line="125" selection-start-column="8" selection-end-line="125" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/day12/LoadAndSave.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -846,9 +971,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#15#97#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -863,9 +985,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#20#47#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -883,9 +1002,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/c.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/students.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -899,65 +1015,233 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/a.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/usermoney.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/day13/DataSet02.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.2.2/spark-sql_2.11-2.2.2-sources.jar!/org/apache/spark/sql/DataFrameReader.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/day14/UbType.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/newforesee/Hdfs.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="120" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="120" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/a.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/b.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/c.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/count.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/date.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/partitions.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/searchLog.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/students.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/teacher.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3484" />
+        <state relative-caret-position="-182" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/telimatic.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testdata">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testsqlfunction.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/newforesee/TestDate.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/userlog.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/usermoney.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/day13/DataSet02.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/day14/UbType.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.2.2/spark-sql_2.11-2.2.2-sources.jar!/org/apache/spark/sql/DataFrameReader.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1169">
-          <caret line="276" column="6" selection-start-line="276" selection-start-column="6" selection-end-line="276" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/newforesee/Hdfs.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="120" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="120" />
+        <state relative-caret-position="665">
+          <caret line="35" column="48" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/telimatic.json">
+    <entry file="file://$PROJECT_DIR$/src/main/java/TestHive.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="19">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/newforesee/JsonTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="96" selection-start-line="9" selection-start-column="87" selection-end-line="9" selection-end-column="96" />
+        <state relative-caret-position="323">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_51/src.zip!/java/util/Properties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="787">
+          <caret line="138" column="11" selection-start-line="138" selection-start-column="11" selection-end-line="138" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar!/scala/Some.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar!/scala/util/matching/Regex.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="615" column="8" selection-start-line="615" selection-start-column="8" selection-end-line="615" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_51/src.zip!/java/util/regex/Matcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="494" column="18" selection-start-line="494" selection-start-column="18" selection-end-line="494" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar!/scala/Option.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="329" column="28" selection-start-line="329" selection-start-column="28" selection-end-line="329" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.4.3/spark-core_2.11-2.4.3.jar!/org/apache/spark/rdd/RDD.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.4.3/spark-core_2.11-2.4.3-sources.jar!/org/apache/spark/rdd/RDD.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="378" column="6" selection-start-line="378" selection-start-column="6" selection-end-line="378" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar!/scala/Predef.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="252" column="16" selection-start-line="252" selection-start-column="16" selection-end-line="252" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/youngPractice/TestInterPolater.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/youngPractice/TestMost.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/youngPractice/TestRegex.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/youngtest/GetRadarData.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar!/scala/collection/IterableLike.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="70" column="6" selection-start-line="70" selection-start-column="6" selection-end-line="70" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/youngtest/GetCommonFriends.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="590">
+          <caret line="50" column="27" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
+          <folding>
+            <element signature="e#19#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/youngtest/GetTogethFriends.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#19#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/commonfriends">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/youngPractice/TestForExpr.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="52" column="26" lean-forward="true" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -990,7 +1274,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>scala-sdk-2.11.8 (2)</last-edited>
+          <last-edited>scala-sdk-2.10.6</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1014,12 +1298,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Spark</last-edited>
+          <last-edited>spark_example</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1027,7 +1310,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>scala-sdk-2.11.81</last-edited>
+          <last-edited>Home</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
