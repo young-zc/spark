@@ -102,4 +102,5 @@ buildNumber.properties
 *.class
 *.log
 
-/.idea/
+/.idea/*
+src/main/scala/test/
