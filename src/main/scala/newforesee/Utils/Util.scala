@@ -1,9 +1,10 @@
 package newforesee.Utils
 
 import java.sql.{Connection, Date, DriverManager, PreparedStatement, SQLException}
+import java.text.SimpleDateFormat
 
+import org.apache.spark.sql.functions.udf
 import org.apache.spark.sql.{DataFrame, SparkSession}
-import vegas.spec.Spec.DataFormat
 
 /**
   * xxx
@@ -22,7 +23,21 @@ object Util {
       "123456"
     )
     connection
+  }
 
+  def datetimeUTC2CST = udf {
+    (utcStr: String) => {
+
+      if (utcStr == null) {
+        "1900-01-01 00:00:00"
+      } else if (utcStr.isEmpty) {
+        "1900-01-01 00:00:00"
+      } else {
+        val formater = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SS")
+        //val formater2 = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS")
+        formater.format(formater.parse(utcStr).getTime + 28800000)
+      }
+    }
   }
 
   def getConnection(connection: Connection, pstmt: PreparedStatement, func: DataFrame => Unit) = {

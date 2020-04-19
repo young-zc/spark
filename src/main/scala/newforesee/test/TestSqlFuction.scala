@@ -10,11 +10,12 @@ object TestSqlFuction extends Test{
 
 //    testReplace
     val dfa: DataFrame = spark.read.json("D:\\workspace\\IDEA\\spark_examples\\src\\a.json")
-      .select("name","age","gender")
-      .withColumnRenamed("name","namea")
-      .withColumnRenamed("age","agea")
-      .withColumn("time",current_timestamp())
     dfa.show()
+    val dfd: DataFrame = spark.read.json("D:\\workspace\\IDEA\\spark_examples\\src\\d.json")
+    dfd.show()
+    val joined_df: DataFrame = dfa.join(dfd,dfa.col("depId")>=dfd.col("depId"),"left")
+    joined_df.show()
+
 
     /*val dfb: DataFrame = spark.read.json("D:\\workspace\\IDEA\\spark_examples\\src\\c.json")
     dfb.show()

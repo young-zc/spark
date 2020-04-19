@@ -1,6 +1,19 @@
 # Created by .ignore support plugin (hsz.mobi)
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+*.idea
+*.iml
+out
+gen
+### Scala template
+*.class
+*.log
+
 ### Java template
 # Compiled class file
+*.class
 
 # Log file
 *.log
@@ -23,29 +36,6 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 
-### Example user template template
-### Example user template
-
-# IntelliJ project files
-.idea
-*.iml
-out
-gen
-### Maven template
-target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-release.properties
-dependency-reduced-pom.xml
-buildNumber.properties
-.mvn/timing.properties
-.mvn/wrapper/maven-wrapper.jar
-
-### Scala template
-*.class
-
 ### Gradle template
 .gradle
 /build/
@@ -62,3 +52,215 @@ gradle-app.setting
 # # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
 # gradle/wrapper/gradle-wrapper.properties
 
+### Maven template
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+### Windows template
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Dump file
+*.stackdump
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+.gitignore
+.idea/dataSources/f84df7e8-eb61-467d-8649-13c0e3380218.corrupted.20191122-043405.reason.txt
+.idea/dataSources/f84df7e8-eb61-467d-8649-13c0e3380218.corrupted.20191122-043405.xml
+.idea/dataSources/f84df7e8-eb61-467d-8649-13c0e3380218.corrupted.20200116-111345.reason.txt
+.idea/dataSources/f84df7e8-eb61-467d-8649-13c0e3380218.corrupted.20200116-111345.xml
+.idea/dataSources/f84df7e8-eb61-467d-8649-13c0e3380218.corrupted.20200302-023730.reason.txt
+.idea/dataSources/f84df7e8-eb61-467d-8649-13c0e3380218.corrupted.20200302-023730.xml
+.idea/dataSources/f84df7e8-eb61-467d-8649-13c0e3380218.corrupted.20200304-060159.reason.txt
+.idea/dataSources/f84df7e8-eb61-467d-8649-13c0e3380218.corrupted.20200304-060159.xml
+.idea/dataSources/f84df7e8-eb61-467d-8649-13c0e3380218.corrupted.20200419-072117.reason.txt
+.idea/dataSources/f84df7e8-eb61-467d-8649-13c0e3380218.corrupted.20200419-072117.xml
+.idea/libraries/scala_sdk_2_11_8.xml
+target/classes/BinFoundIp$$anonfun$compare$1.class
+target/classes/BinFoundIp$$anonfun$searchCode$1.class
+target/classes/BinFoundIp$.class
+target/classes/BinFoundIp.class
+target/classes/Consumers$1.class
+target/classes/Consumers.class
+target/classes/JavaRDD2DataFrame$1.class
+target/classes/JavaRDD2DataFrame$2.class
+target/classes/JavaRDD2DataFrame.class
+target/classes/JavaRDD2DataFrame2$1.class
+target/classes/JavaRDD2DataFrame2.class
+target/classes/JavaSparkWC$1.class
+target/classes/JavaSparkWC$2.class
+target/classes/JavaSparkWC$3.class
+target/classes/JavaSparkWC$4.class
+target/classes/JavaSparkWC$5.class
+target/classes/JavaSparkWC.class
+target/classes/Producrts.class
+target/classes/Student.class
+target/classes/TestHive.class
+target/classes/day07/
+target/classes/day08/
+target/classes/day09/
+target/classes/day10/
+target/classes/day11/JDBCTest$$anonfun$1.class
+target/classes/day11/JDBCTest$$anonfun$2.class
+target/classes/day11/JDBCTest$$anonfun$3.class
+target/classes/day11/JDBCTest$$anonfun$main$1.class
+target/classes/day11/JDBCTest.class
+target/classes/day11/Partitioned$$anonfun$getPartition$1.class
+target/classes/day11/Partitioned.class
+target/classes/day11/Partitioner$$anonfun$1.class
+target/classes/day11/Partitioner$$anonfun$2.class
+target/classes/day11/Partitioner$.class
+target/classes/day11/Partitioner.class
+target/classes/day12/DataFrameCreate.class
+target/classes/day12/DataFrameCreate2$.class
+target/classes/day12/DataFrameCreate2.class
+target/classes/day12/LoadAndSave$.class
+target/classes/day12/LoadAndSave.class
+target/classes/day12/RDD2DataFrame.class
+target/classes/day12/RDD2DataFrameScala$$anonfun$1.class
+target/classes/day12/RDD2DataFrameScala.class
+target/classes/day13/DFandMoney$$anonfun$1.class
+target/classes/day13/DFandMoney$$anonfun$main$1.class
+target/classes/day13/DFandMoney$$anonfun$main$2.class
+target/classes/day13/DFandMoney$.class
+target/classes/day13/DFandMoney.class
+target/classes/day13/DFandUV$$anonfun$1.class
+target/classes/day13/DFandUV$$anonfun$main$1.class
+target/classes/day13/DFandUV$$anonfun$main$2.class
+target/classes/day13/DFandUV$.class
+target/classes/day13/DFandUV.class
+target/classes/day13/DataSet01$.class
+target/classes/day13/DataSet01.class
+target/classes/day13/DataSet02$$anonfun$main$1.class
+Would remo
+ve target/classes/day13/DataSet02$.class
+target/classes/day13/DataSet02.class
+target/classes/day13/DataSet03.class
+target/classes/day13/Pro$.class
+target/classes/day13/Pro.class
+target/classes/day13/RowNumber$$anonfun$1.class
+target/classes/day13/RowNumber.class
+target/classes/day13/UDAF$$anonfun$1.class
+target/classes/day13/UDAF$$anonfun$main$1.class
+target/classes/day13/UDAF$.class
+target/classes/day13/UDAF.class
+target/classes/day13/UDF$$anonfun$1.class
+target/classes/day13/UDF$$anonfun$main$1.class
+target/classes/day13/UDF$$anonfun$main$2.class
+target/classes/day13/UDF$$typecreator1$1.class
+target/classes/day13/UDF$.class
+target/classes/day13/UDF.class
+target/classes/day13/teachers$.class
+target/classes/day13/teachers.class
+target/classes/day14/DaliTop3$$anonfun$1.class
+target/classes/day14/DaliTop3$$anonfun$2.class
+target/classes/day14/DaliTop3$$anonfun$3.class
+target/classes/day14/DaliTop3$$anonfun$4.class
+target/classes/day14/DaliTop3$.class
+target/classes/day14/DaliTop3.class
+target/classes/day14/PROs$.class
+target/classes/day14/PROs.class
+target/classes/day14/Top3Test$$anonfun$1.class
+target/classes/day14/Top3Test$$anonfun$2.class
+target/classes/day14/Top3Test$$anonfun$3.class
+target/classes/day14/Top3Test$.class
+target/classes/day14/Top3Test$delayedInit$body.class
+target/classes/day14/Top3Test.class
+target/classes/day14/Type.class
+target/classes/day14/UbType$.class
+target/classes/day14/UbType.class
+target/classes/day17/
+target/classes/day18/BlackListFilter$$anonfun$1.class
+target/classes/day18/BlackListFilter$$anonfun$2$$anonfun$3$$anonfun$apply$1.class
+target/classes/day18/BlackListFilter$$anonfun$2$$anonfun$3.class
+target/classes/day18/BlackListFilter$$anonfun$2$$anonfun$4.class
+target/classes/day18/BlackListFilter$$anonfun$2.class
+target/classes/day18/BlackListFilter$.class
+target/classes/day18/BlackListFilter.class
+target/classes/day18/ConnectionPool.class
+target/classes/day18/KafkaDirectWordCount.class
+target/classes/day18/foreachRDDAndJDBC$$anonfun$1$$anonfun$apply$2$$anonfun$apply$1.class
+target/classes/day18/foreachRDDAndJDBC$$anonfun$1$$anonfun$apply$2.class
+target/classes/day18/foreachRDDAndJDBC$$anonfun$1.class
+target/classes/day18/foreachRDDAndJDBC$$anonfun$2.class
+target/classes/day18/foreachRDDAndJDBC$$anonfun$3.class
+target/classes/day18/foreachRDDAndJDBC$$anonfun$main$1$$anonfun$apply$3$$anonfun$apply$4.class
+target/classes/day18/foreachRDDAndJDBC$$anonfun$main$1$$anonfun$apply$3.class
+target/classes/day18/foreachRDDAndJDBC$$anonfun$main$1.class
+target/classes/day18/foreachRDDAndJDBC$.class
+target/classes/day18/foreachRDDAndJDBC.class
+target/classes/day19/
+target/classes/dongliang/20180715.parquet
+target/classes/dongliang/ReadParqutt.class
+target/classes/newforesee/First$$anonfun$1.class
+target/classes/newforesee/First$$anonfun$4.class
+target/classes/newforesee/First$$anonfun$5.class
+target/classes/newforesee/First$$anonfun$main$1.class
+target/classes/newforesee/First$.class
+target/classes/newforesee/First.class
+target/classes/newforesee/Fourth$$anonfun$3.class
+target/classes/newforesee/Fourth$$anonfun$7.class
+target/classes/newforesee/Fourth$$anonfun$8.class
+target/classes/newforesee/Fourth$$anonfun$9.class
+classes/newforesee/Fourth$$anonfun$main$4.class
+target/classes/newforesee/Fourth$$anonfun$main$5.class
+target/classes/newforesee/Fourth$.class
+target/classes/newforesee/Fourth.class
+target/classes/newforesee/Second$$anonfun$2.class
+target/classes/newforesee/Second$$anonfun$6.class
+target/classes/newforesee/Second$$anonfun$main$2.class
+target/classes/newforesee/Second$.class
+target/classes/newforesee/Second.class
+target/classes/newforesee/SparkWC$$anonfun$1.class
+target/classes/newforesee/SparkWC$$anonfun$2.class
+target/classes/newforesee/SparkWC$$anonfun$3.class
+target/classes/newforesee/SparkWC$$anonfun$4.class
+target/classes/newforesee/SparkWC$.class
+target/classes/newforesee/SparkWC.class
+target/classes/newforesee/Third$$anonfun$main$3.class
+target/classes/newforesee/Third$.class
+target/classes/newforesee/Third.class
+target/classes/newforesee/work$$anonfun$1.class
+target/classes/newforesee/work$$anonfun$2.class
+target/classes/newforesee/work$$anonfun$3.class
+target/classes/newforesee/work$$anonfun$4.class
+target/classes/newforesee/work$$anonfun$5.class
+target/classes/newforesee/work$$anonfun$6.class
+target/classes/newforesee/work$$anonfun$7.class
+target/classes/newforesee/work$$anonfun$work1$1.class
+target/classes/newforesee/work$$anonfun$work2$1.class
+target/classes/newforesee/work$$anonfun$work2$2.class
+target/classes/newforesee/work$$anonfun$work3$1.class
+target/classes/newforesee/work$$anonfun$work4$1.class
+target/classes/newforesee/work$$anonfun$work4$2.class
+target/classes/newforesee/work$.class
+target/classes/newforesee/work.class
+target/classes/youngPractice/
+target/classes/youngtest/
+target/generated-sources/
