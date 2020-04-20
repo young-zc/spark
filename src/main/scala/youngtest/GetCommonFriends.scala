@@ -44,11 +44,48 @@ object GetCommonFriends {
 
     //聚合，把所有拥有某一friend的user全部聚合起来
     val reduced: RDD[(String, String)] = transformed.reduceByKey {
-      (s1: String, s2: String) =>
-        s1 + "," + s2
+      (u1: String, u2: String) =>
+        u1 + "," + u2
     }
     println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
     reduced.foreach(println)
+
+
+    //切分users
+    val fri_users_rdd: RDD[(String, Array[String])] = reduced.map {
+      fu: (String, String) =>
+        val users: Array[String] = fu._2.split(",")
+        fu._2 -> users
+    }
+
+
+    val two_u_fri_dd: RDD[(String, String)] = fri_users_rdd.flatMap {
+      fuu =>
+        val users: Array[String] = fuu._2
+        val a: Int = users.length
+        var b = 0
+        var map: Map[String, String] = Map[String, String]()
+        while (b < a - 1) {
+          var c = b + 1
+          while (c < a) {
+            map += (users(b) + "+" + users(c) -> fuu._1)
+            c += 1
+          }
+          b += 1
+        }
+        map
+    }
+
+
+    val result_rdd: RDD[(String, String)] = two_u_fri_dd.reduceByKey {
+      (fri1, fri2) =>
+        fri1 + "," + fri2
+    }.sortBy(_._1)
+    result_rdd.foreach{
+      res => println(res._1 + ":" + res._2)
+    }
+
+
   }
 
 }

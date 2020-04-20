@@ -1,0 +1,14 @@
+{"id": 1, "bdate": 25, "edate": 30}
+{"id": 1, "bdate": "", "edate": 20}
+{"id": 2, "bdate": 30, "edate": 2}
+{"id": 3, "bdate": 30, "edate": 2}
+{"id": 3, "bdate": 30, "edate": 2}
+{"id": 3, "bdate": 30, "edate": 2}
+{"id": 3, "bdate": 30, "edate": 2}
+{"id": 2, "bdate": 35, "edate": 1}
+{"id": 1, "bdate": 15, "edate": ""}
+{"id": 1, "bdate": 12, "edate": ""}
+{"id": 1, "bdate": 22, "edate": ""}
+{"id": 1, "bdate": 5, "edate": ""}
+{"id": 3, "bdate": 21, "edate": 3}
+{"id": 2, "bdate": 30, "edate": 2}

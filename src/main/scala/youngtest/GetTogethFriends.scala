@@ -9,6 +9,13 @@ object GetTogethFriends {
     val ss: SparkSession = SparkSession.builder().appName("shareFriend").master("local").getOrCreate()
 
     //读取文件，并把文件中原有(user:friend,friend,···)的形式转换为(friend,(friend,user))的形式
+
+    /**
+      * A, "B,C,D,F,E,N"
+      * B:A,C,E,K
+      * C:F,A,D,I
+      * D:A,E,F,L
+      */
     val flatmap1: RDD[(String, (String, String))] = ss.sparkContext
       .textFile("C:\\Users\\RG316\\IdeaProjects\\spark_example\\src\\commonfriends")
       .map((_: String).split(":"))
@@ -20,6 +27,11 @@ object GetTogethFriends {
           friends.foreach((friend: String) => map += (friend -> Tuple2(friend, user)))
           map
       }
+    /*
+    B->(B,A)
+    C->(C,A)
+    D->(D,A)
+     */
 
     println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>flatmap1")
     flatmap1.foreach(println)
